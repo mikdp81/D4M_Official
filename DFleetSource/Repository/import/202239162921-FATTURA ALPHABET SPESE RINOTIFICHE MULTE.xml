@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xis="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader xmlns="">
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>04919090151</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>000917681</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>UV5W5WD</CodiceDestinatario>
+      <ContattiTrasmittente>
+        <Telefono>02693651</Telefono>
+        <Email>edi@sefin.it</Email>
+      </ContattiTrasmittente>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>06252501009</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>13070370153</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>Alphabet Italia S.p.a.</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Via Romano Guardini n. 24</Indirizzo>
+        <CAP>38121</CAP>
+        <Comune>Trento</Comune>
+        <Provincia>TN</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <IscrizioneREA>
+        <Ufficio>RM</Ufficio>
+        <NumeroREA>RM955225</NumeroREA>
+        <CapitaleSociale>10000000.00</CapitaleSociale>
+        <StatoLiquidazione>LN</StatoLiquidazione>
+      </IscrizioneREA>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>03945320962</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>03945320962</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>DELOITTE CONSULTING S.R.L.</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA TORTONA, 25</Indirizzo>
+        <CAP>20144</CAP>
+        <Comune>MILANO</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+    <TerzoIntermediarioOSoggettoEmittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>04919090151</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>04919090151</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>SEFIN S.p. A</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+    </TerzoIntermediarioOSoggettoEmittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody xmlns="">
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2021-11-26</Data>
+        <Numero>VG021078259</Numero>
+        <ImportoTotaleDocumento>73.20</ImportoTotaleDocumento>
+        <Causale>Fattura - Multe</Causale>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>0004</NumeroLinea>
+        <Descrizione>Addebito costi gestione multa  - GB595GZ - 062349982948 - 16/07/2021 05:14</Descrizione>
+        <Quantita>1.0000</Quantita>
+        <PrezzoUnitario>12.00000000</PrezzoUnitario>
+        <PrezzoTotale>12.00000000</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>Info</TipoDato>
+          <RiferimentoTesto>Targa: GB595GZ</RiferimentoTesto>
+        </AltriDatiGestionali>
+        <AltriDatiGestionali>
+          <TipoDato>Info</TipoDato>
+          <RiferimentoTesto>Driver: MR DOMENICO PETRACCA</RiferimentoTesto>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>0007</NumeroLinea>
+        <Descrizione>Addebito costi gestione multa  - GB871PS - 001500726898 - 13/06/2021 19:03</Descrizione>
+        <Quantita>1.0000</Quantita>
+        <PrezzoUnitario>12.00000000</PrezzoUnitario>
+        <PrezzoTotale>12.00000000</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>Info</TipoDato>
+          <RiferimentoTesto>Targa: GB871PS</RiferimentoTesto>
+        </AltriDatiGestionali>
+        <AltriDatiGestionali>
+          <TipoDato>Info</TipoDato>
+          <RiferimentoTesto>Driver: MR GIUSEPPE INZERILLO</RiferimentoTesto>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>0010</NumeroLinea>
+        <Descrizione>Addebito costi gestione multa  - GB871PS - 007089776830 - 24/06/2021 08:35</Descrizione>
+        <Quantita>1.0000</Quantita>
+        <PrezzoUnitario>12.00000000</PrezzoUnitario>
+        <PrezzoTotale>12.00000000</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>Info</TipoDato>
+          <RiferimentoTesto>Targa: GB871PS</RiferimentoTesto>
+        </AltriDatiGestionali>
+        <AltriDatiGestionali>
+          <TipoDato>Info</TipoDato>
+          <RiferimentoTesto>Driver: MR GIUSEPPE INZERILLO</RiferimentoTesto>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>0013</NumeroLinea>
+        <Descrizione>Addebito costi gestione multa  - GB873PS - 003089826451 - 06/06/2021 00:07</Descrizione>
+        <Quantita>1.0000</Quantita>
+        <PrezzoUnitario>12.00000000</PrezzoUnitario>
+        <PrezzoTotale>12.00000000</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>Info</TipoDato>
+          <RiferimentoTesto>Targa: GB873PS</RiferimentoTesto>
+        </AltriDatiGestionali>
+        <AltriDatiGestionali>
+          <TipoDato>Info</TipoDato>
+          <RiferimentoTesto>Driver: MR CAMILLO SPADEA</RiferimentoTesto>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>0016</NumeroLinea>
+        <Descrizione>Addebito costi gestione multa  - GF435BZ - X2966 - 07/08/2021 13:00</Descrizione>
+        <Quantita>1.0000</Quantita>
+        <PrezzoUnitario>12.00000000</PrezzoUnitario>
+        <PrezzoTotale>12.00000000</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>Info</TipoDato>
+          <RiferimentoTesto>Targa: GF435BZ</RiferimentoTesto>
+        </AltriDatiGestionali>
+        <AltriDatiGestionali>
+          <TipoDato>Info</TipoDato>
+          <RiferimentoTesto>Driver: MR GIUSEPPE NICOLETTI</RiferimentoTesto>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>60.00</ImponibileImporto>
+        <Imposta>13.20</Imposta>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <Beneficiario>Alphabet Italia S.p.a.</Beneficiario>
+        <ModalitaPagamento>MP19</ModalitaPagamento>
+        <DataScadenzaPagamento>2021-11-30</DataScadenzaPagamento>
+        <ImportoPagamento>73.20</ImportoPagamento>
+        <IBAN>IT11H0306905110100000018061</IBAN>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xis="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader xmlns="">
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>04919090151</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>000912870</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>UV5W5WD</CodiceDestinatario>
+      <ContattiTrasmittente>
+        <Telefono>02693651</Telefono>
+        <Email>edi@sefin.it</Email>
+      </ContattiTrasmittente>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>06252501009</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>13070370153</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>Alphabet Italia S.p.a.</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Via Romano Guardini n. 24</Indirizzo>
+        <CAP>38121</CAP>
+        <Comune>Trento</Comune>
+        <Provincia>TN</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <IscrizioneREA>
+        <Ufficio>RM</Ufficio>
+        <NumeroREA>RM955225</NumeroREA>
+        <CapitaleSociale>10000000.00</CapitaleSociale>
+        <StatoLiquidazione>LN</StatoLiquidazione>
+      </IscrizioneREA>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>03945320962</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>03945320962</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>DELOITTE CONSULTING S.R.L.</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA TORTONA, 25</Indirizzo>
+        <CAP>20144</CAP>
+        <Comune>MILANO</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+    <TerzoIntermediarioOSoggettoEmittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>04919090151</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>04919090151</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>SEFIN S.p. A</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+    </TerzoIntermediarioOSoggettoEmittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody xmlns="">
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2021-11-09</Data>
+        <Numero>VG021075270</Numero>
+        <ImportoTotaleDocumento>19.61</ImportoTotaleDocumento>
+        <Causale>Fattura - Auto Sostitutiva</Causale>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>0004</NumeroLinea>
+        <Descrizione>FP152HA Carburante ed oneri ammin. e postali 201870150 Veicolo Sostitutivo FP152</Descrizione>
+        <Quantita>1.0000</Quantita>
+        <PrezzoUnitario>16.07000000</PrezzoUnitario>
+        <PrezzoTotale>16.07000000</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <AltriDatiGestionali>
+          <TipoDato>Info</TipoDato>
+          <RiferimentoTesto>Targa: FP152HA</RiferimentoTesto>
+        </AltriDatiGestionali>
+        <AltriDatiGestionali>
+          <TipoDato>Info</TipoDato>
+          <RiferimentoTesto>Driver: MR Ezio Maria Grossi</RiferimentoTesto>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>16.07</ImponibileImporto>
+        <Imposta>3.54</Imposta>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <Beneficiario>Alphabet Italia S.p.a.</Beneficiario>
+        <ModalitaPagamento>MP19</ModalitaPagamento>
+        <DataScadenzaPagamento>2021-11-30</DataScadenzaPagamento>
+        <ImportoPagamento>19.61</ImportoPagamento>
+        <IBAN>IT11H0306905110100000018061</IBAN>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

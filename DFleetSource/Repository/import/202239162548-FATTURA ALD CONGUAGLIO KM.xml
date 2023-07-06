@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?><FatturaElettronica xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" versione="FPR12">
+<FatturaElettronicaHeader xmlns="">
+<DatiTrasmissione>
+<IdTrasmittente>
+<IdPaese>IT</IdPaese>
+<IdCodice>07945211006</IdCodice>
+</IdTrasmittente>
+<ProgressivoInvio>1</ProgressivoInvio>
+<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+<CodiceDestinatario>UV5W5WD</CodiceDestinatario>
+</DatiTrasmissione>
+<CedentePrestatore>
+         <DatiAnagrafici>
+            <IdFiscaleIVA>
+               <IdPaese>IT</IdPaese>
+               <IdCodice>01924961004</IdCodice>
+            </IdFiscaleIVA>
+            <CodiceFiscale>07978810583</CodiceFiscale>
+            <Anagrafica>
+               <Denominazione>ALD Automotive Italia S.r.l.</Denominazione>
+            </Anagrafica>
+            <RegimeFiscale>RF01</RegimeFiscale>
+         </DatiAnagrafici>
+         <Sede>
+            <Indirizzo>Viale Luca Gaurico, 187</Indirizzo>
+            <CAP>00143</CAP>
+            <Comune>Roma</Comune>
+            <Provincia>RM</Provincia>
+            <Nazione>IT</Nazione>
+         </Sede>
+         <IscrizioneREA>
+            <Ufficio>RM</Ufficio>
+            <NumeroREA>636604</NumeroREA>
+            <CapitaleSociale>140400000.00</CapitaleSociale>
+            <SocioUnico>SU</SocioUnico>
+            <StatoLiquidazione>LN</StatoLiquidazione>
+         </IscrizioneREA>
+      </CedentePrestatore>
+<CessionarioCommittente>
+         <DatiAnagrafici>
+            <IdFiscaleIVA>
+               <IdPaese>IT</IdPaese>
+               <IdCodice>03945320962</IdCodice>
+            </IdFiscaleIVA>
+            <Anagrafica>
+               <Denominazione>DELOITTE CONSULTING SRL</Denominazione>
+            </Anagrafica>
+         </DatiAnagrafici>
+         <Sede>
+            <Indirizzo>TORTONA 25</Indirizzo>
+            <CAP>20144</CAP>
+            <Comune>MILANO</Comune>
+            <Nazione>IT</Nazione>
+         </Sede>
+      </CessionarioCommittente>
+<TerzoIntermediarioOSoggettoEmittente>
+<DatiAnagrafici>
+<IdFiscaleIVA>
+<IdPaese>IT</IdPaese>
+<IdCodice>07945211006</IdCodice>
+</IdFiscaleIVA>
+<Anagrafica>
+<Denominazione>InfoCert S.p.A.</Denominazione>
+</Anagrafica>
+</DatiAnagrafici>
+</TerzoIntermediarioOSoggettoEmittente>
+<SoggettoEmittente>TZ</SoggettoEmittente>
+</FatturaElettronicaHeader>
+<FatturaElettronicaBody xmlns="">
+      <DatiGenerali>
+         <DatiGeneraliDocumento>
+            <TipoDocumento>TD04</TipoDocumento>
+            <Divisa>EUR</Divisa>
+            <Data>2021-09-29</Data>
+            <Numero>RLC061631</Numero>
+            <DatiBollo>
+               <BolloVirtuale>SI</BolloVirtuale>
+               <ImportoBollo>2.00</ImportoBollo>
+            </DatiBollo>
+            <ImportoTotaleDocumento>5962.49</ImportoTotaleDocumento>
+         </DatiGeneraliDocumento>
+         <DatiContratto>
+            <RiferimentoNumeroLinea>1</RiferimentoNumeroLinea>
+            <IdDocumento>40041538</IdDocumento>
+            <Data>2017-02-16</Data>
+         </DatiContratto>
+         <DatiContratto>
+            <RiferimentoNumeroLinea>2</RiferimentoNumeroLinea>
+            <IdDocumento>40119930</IdDocumento>
+            <Data>2017-07-14</Data>
+         </DatiContratto>
+         <DatiContratto>
+            <RiferimentoNumeroLinea>3</RiferimentoNumeroLinea>
+            <IdDocumento>40142617</IdDocumento>
+            <Data>2017-12-12</Data>
+         </DatiContratto>
+         <DatiContratto>
+            <RiferimentoNumeroLinea>4</RiferimentoNumeroLinea>
+            <IdDocumento>469251</IdDocumento>
+            <Data>2016-03-11</Data>
+         </DatiContratto>
+         <DatiContratto>
+            <RiferimentoNumeroLinea>5</RiferimentoNumeroLinea>
+            <IdDocumento>480208</IdDocumento>
+            <Data>2016-04-13</Data>
+         </DatiContratto>
+         <DatiContratto>
+            <RiferimentoNumeroLinea>6</RiferimentoNumeroLinea>
+            <IdDocumento>485565</IdDocumento>
+            <Data>2016-04-20</Data>
+         </DatiContratto>
+      </DatiGenerali>
+      <DatiBeniServizi>
+         <DettaglioLinee>
+            <NumeroLinea>1</NumeroLinea>
+            <Descrizione>Conguaglio Km: Km in ctr riparametrati 98,881 Km di rientro: 81,006 Km Franchigia Km 15000 Coefficiente applicato 0.0372 Differenza Km percorsi -2,900</Descrizione>
+            <Quantita>1.00</Quantita>
+            <PrezzoUnitario>107.88</PrezzoUnitario>
+            <PrezzoTotale>107.88</PrezzoTotale>
+            <AliquotaIVA>22.00</AliquotaIVA>
+            <AltriDatiGestionali>
+               <TipoDato>Dett. 1</TipoDato>
+               <RiferimentoTesto>Targa: FH161DH AUDI A3 1.6 TDI Business SB Hatchback 5-door</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Cod. Cli.</TipoDato>
+               <RiferimentoTesto>Codice Cliente: 00280044</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Rif.</TipoDato>
+               <RiferimentoTesto>Riferimento: MAZZOLA, MARCO</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Contratto</TipoDato>
+               <RiferimentoTesto>40041538</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Telaio</TipoDato>
+               <RiferimentoTesto>WAUZZZ8V2HA088599</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Data Immat</TipoDato>
+               <RiferimentoTesto>2017-01-30</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>CC</TipoDato>
+               <RiferimentoTesto>1598</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>CV</TipoDato>
+               <RiferimentoTesto>110</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Scad Bollo</TipoDato>
+            </AltriDatiGestionali>
+         </DettaglioLinee>
+         <DettaglioLinee>
+            <NumeroLinea>2</NumeroLinea>
+            <Descrizione>Conguaglio Km: Km in ctr riparametrati 146,137 Km di rientro: 57,885 Km Franchigia Km 15000 Coefficiente applicato 0.03336 Differenza Km percorsi -73,277</Descrizione>
+            <Quantita>1.00</Quantita>
+            <PrezzoUnitario>2444.52</PrezzoUnitario>
+            <PrezzoTotale>2444.52</PrezzoTotale>
+            <AliquotaIVA>22.00</AliquotaIVA>
+            <AltriDatiGestionali>
+               <TipoDato>Dett. 1</TipoDato>
+               <RiferimentoTesto>Targa: FK519MJ AUDI A4 2.0 TDI qtro S tr. 140kW Bus. Avant S</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Cod. Cli.</TipoDato>
+               <RiferimentoTesto>Codice Cliente: 00280044</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Rif.</TipoDato>
+               <RiferimentoTesto>Riferimento: BIANCO, ROBERTA</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Contratto</TipoDato>
+               <RiferimentoTesto>40119930</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Telaio</TipoDato>
+               <RiferimentoTesto>WAUZZZF41JA020049</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Data Immat</TipoDato>
+               <RiferimentoTesto>2017-06-28</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>CC</TipoDato>
+               <RiferimentoTesto>1968</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>CV</TipoDato>
+               <RiferimentoTesto>190</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Scad Bollo</TipoDato>
+            </AltriDatiGestionali>
+         </DettaglioLinee>
+         <DettaglioLinee>
+            <NumeroLinea>3</NumeroLinea>
+            <Descrizione>Storno Penale stato d'uso fine noleggio 20210927-15756355</Descrizione>
+            <Quantita>1.00</Quantita>
+            <PrezzoUnitario>120.00</PrezzoUnitario>
+            <PrezzoTotale>120.00</PrezzoTotale>
+            <AliquotaIVA>0.00</AliquotaIVA>
+            <Natura>N1</Natura>
+            <AltriDatiGestionali>
+               <TipoDato>Dett. 1</TipoDato>
+               <RiferimentoTesto>Targa: FM718FJ LAND ROVER DISCOVERY 2.0 TD4 SE autom. Sport</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Cod. Cli.</TipoDato>
+               <RiferimentoTesto>Codice Cliente: 00280044</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Rif.</TipoDato>
+               <RiferimentoTesto>Riferimento: ANGELA STEFANIA CICCOMASCOLO</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Contratto</TipoDato>
+               <RiferimentoTesto>40142617</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Telaio</TipoDato>
+               <RiferimentoTesto>SALRA2BN7HA043189</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Data Immat</TipoDato>
+               <RiferimentoTesto>2017-11-10</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>CC</TipoDato>
+               <RiferimentoTesto>1999</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>CV</TipoDato>
+               <RiferimentoTesto>180</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Scad Bollo</TipoDato>
+            </AltriDatiGestionali>
+         </DettaglioLinee>
+         <DettaglioLinee>
+            <NumeroLinea>4</NumeroLinea>
+            <Descrizione>Conguaglio Km: Km in ctr riparametrati 119,261 Km di rientro: 92,337 Km Franchigia Km 15000 Coefficiente applicato 0.037 Differenza Km percorsi -11,924</Descrizione>
+            <Quantita>1.00</Quantita>
+            <PrezzoUnitario>441.19</PrezzoUnitario>
+            <PrezzoTotale>441.19</PrezzoTotale>
+            <AliquotaIVA>22.00</AliquotaIVA>
+            <AltriDatiGestionali>
+               <TipoDato>Dett. 1</TipoDato>
+               <RiferimentoTesto>Targa: FD168BK AUDI A3 1.6 TDI Business S.Back Hatchback 5-d</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Cod. Cli.</TipoDato>
+               <RiferimentoTesto>Codice Cliente: 00280044</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Rif.</TipoDato>
+               <RiferimentoTesto>Riferimento: Silvestri,Federico</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Contratto</TipoDato>
+               <RiferimentoTesto>469251</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Telaio</TipoDato>
+               <RiferimentoTesto>WAUZZZ8VXGA081351</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Data Immat</TipoDato>
+               <RiferimentoTesto>2016-02-24</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>CC</TipoDato>
+               <RiferimentoTesto>1598</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>CV</TipoDato>
+               <RiferimentoTesto>110</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Scad Bollo</TipoDato>
+            </AltriDatiGestionali>
+         </DettaglioLinee>
+         <DettaglioLinee>
+            <NumeroLinea>5</NumeroLinea>
+            <Descrizione>Conguaglio Km: Km in ctr riparametrati 114,611 Km di rientro: 90,162 Km Franchigia Km 15000 Coefficiente applicato 0.0595 Differenza Km percorsi -9,449</Descrizione>
+            <Quantita>1.00</Quantita>
+            <PrezzoUnitario>562.22</PrezzoUnitario>
+            <PrezzoTotale>562.22</PrezzoTotale>
+            <AliquotaIVA>22.00</AliquotaIVA>
+            <AltriDatiGestionali>
+               <TipoDato>Dett. 1</TipoDato>
+               <RiferimentoTesto>Targa: FD711KS LAND ROVER RANGE ROVER EVOQUE LAND ROVER RANG</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Cod. Cli.</TipoDato>
+               <RiferimentoTesto>Codice Cliente: 00280044</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Rif.</TipoDato>
+               <RiferimentoTesto>Riferimento: Roncaglia,Stefano</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Contratto</TipoDato>
+               <RiferimentoTesto>480208</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Telaio</TipoDato>
+               <RiferimentoTesto>SALVA2BN8GH127512</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Data Immat</TipoDato>
+               <RiferimentoTesto>2016-03-23</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>CC</TipoDato>
+               <RiferimentoTesto>1998</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>CV</TipoDato>
+               <RiferimentoTesto>150</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Scad Bollo</TipoDato>
+            </AltriDatiGestionali>
+         </DettaglioLinee>
+         <DettaglioLinee>
+            <NumeroLinea>6</NumeroLinea>
+            <Descrizione>Conguaglio Km: Km in ctr riparametrati 114,907 Km di rientro: 73,216 Km Franchigia Km 15000 Coefficiente applicato 0.0462 Differenza Km percorsi -26,691</Descrizione>
+            <Quantita>1.00</Quantita>
+            <PrezzoUnitario>1233.12</PrezzoUnitario>
+            <PrezzoTotale>1233.12</PrezzoTotale>
+            <AliquotaIVA>22.00</AliquotaIVA>
+            <AltriDatiGestionali>
+               <TipoDato>Dett. 1</TipoDato>
+               <RiferimentoTesto>Targa: FD268RE AUDI A4 2.0 TDI 110kW Bus. Avant SW 5-door</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Cod. Cli.</TipoDato>
+               <RiferimentoTesto>Codice Cliente: 00280044</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Rif.</TipoDato>
+               <RiferimentoTesto>Riferimento: Rocco,Mirko</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Contratto</TipoDato>
+               <RiferimentoTesto>485565</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Telaio</TipoDato>
+               <RiferimentoTesto>WAUZZZF45GA073457</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Data Immat</TipoDato>
+               <RiferimentoTesto>2016-04-11</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>CC</TipoDato>
+               <RiferimentoTesto>1968</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>CV</TipoDato>
+               <RiferimentoTesto>150</RiferimentoTesto>
+            </AltriDatiGestionali>
+            <AltriDatiGestionali>
+               <TipoDato>Scad Bollo</TipoDato>
+            </AltriDatiGestionali>
+         </DettaglioLinee>
+         <DatiRiepilogo>
+            <AliquotaIVA>22.00</AliquotaIVA>
+            <ImponibileImporto>4788.93</ImponibileImporto>
+            <Imposta>1053.56</Imposta>
+            <EsigibilitaIVA>I</EsigibilitaIVA>
+            <RiferimentoNormativo>IVA 22 %</RiferimentoNormativo>
+         </DatiRiepilogo>
+         <DatiRiepilogo>
+            <AliquotaIVA>0.00</AliquotaIVA>
+            <Natura>N1</Natura>
+            <ImponibileImporto>120.00</ImponibileImporto>
+            <Imposta>0.00</Imposta>
+            <EsigibilitaIVA>I</EsigibilitaIVA>
+            <RiferimentoNormativo>ESC.ART 15</RiferimentoNormativo>
+         </DatiRiepilogo>
+      </DatiBeniServizi>
+      <DatiPagamento>
+         <CondizioniPagamento>TP02</CondizioniPagamento>
+         <DettaglioPagamento>
+            <Beneficiario>ALD Automotive Italia S.r.l.</Beneficiario>
+            <ModalitaPagamento>MP05</ModalitaPagamento>
+            <ImportoPagamento>5962.49</ImportoPagamento>
+            <IBAN>IT24E0200805364000005382174</IBAN>
+         </DettaglioPagamento>
+      </DatiPagamento>
+   </FatturaElettronicaBody>
+<ds:Signature Id="id-ee1051f19b17cf6a4fd79206da05c381" xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="r-id-ee1051f19b17cf6a4fd79206da05c381-1" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/TR/1999/REC-xpath-19991116"><ds:XPath>not(ancestor-or-self::ds:Signature)</ds:XPath></ds:Transform><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ZaCrr9b5b+5d4Utt/309MiaVPGor578yCYK6OCT1dHk=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-ee1051f19b17cf6a4fd79206da05c381"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>N6AcJmVlKnQ1MAv1yKsvQFNiJKZ3smgFiH2sy1Q3jaU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-ee1051f19b17cf6a4fd79206da05c381">lKn49qoOlAmxj8JA8d5CGEvw2eRVCsGw0Vy+BEHADSLCcCYurOobL7MjdLEkRMpZwwWAw4RCnavOQH3V4/oJRp3ywYI+ckrNaJQlBNh+xKGKEV5Bf29MuThQu7cLnQra2KJqzEfT1h3Vmy0KnuTNfzyT1nqJihGAq+zVqn+qJdp75zqFvmOITI6h2NRrXP2CdkuRtXCpbdGcOjVkq6Xc4b9CRwSSJJfyby5qcTXqp2pdZnZ5WNkLi22s9vCO10dIdXkdeC/y66NXxrduZ5ijwnH10Q2tkECuVBt50jBGsj96XFEE6ZVQhS++NMlbF9jmjFqNIQyZRKMZNMVHxGvWLw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-ee1051f19b17cf6a4fd79206da05c381"><xades:SignedProperties Id="xades-id-ee1051f19b17cf6a4fd79206da05c381"><xades:SignedSignatureProperties><xades:SigningTime>2021-10-01T03:50:19Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>V11Eh4gFKqrxa5n5HEnSqoxDgEcLwLzJYt3ScbBOUvU=</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGUMIGLpIGIMIGFMQswCQYDVQQGEwJJVDEVMBMGA1UECgwMSU5GT0NFUlQgU1BBMSIwIAYDVQQLDBlDZXJ0aWZpY2F0b3JlIEFjY3JlZGl0YXRvMRQwEgYDVQQFEwswNzk0NTIxMTAwNjElMCMGA1UEAwwcSW5mb0NlcnQgRmlybWEgUXVhbGlmaWNhdGEgMgIEALrAfA==</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#r-id-ee1051f19b17cf6a4fd79206da05c381-1"><xades:MimeType>application/octet-stream</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></FatturaElettronica>

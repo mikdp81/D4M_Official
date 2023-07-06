@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F05B084D-598E-4536-8269-83A4AA693D87}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessObject</RootNamespace>
+    <AssemblyName>BusinessObject</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>BusinessObject.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AraneaUtilities">
+      <HintPath>..\AraneaUtilities\bin\Debug\AraneaUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Api\ApiTeam.cs" />
+    <Compile Include="Classes\Comunicazioni.cs" />
+    <Compile Include="Classes\FileTracciati.cs" />
+    <Compile Include="Classes\Globals\DFleetUserRoles.cs" />
+    <Compile Include="Classes\Helper\EncryptHelper.cs" />
+    <Compile Include="Classes\Helper\RequestExtensions.cs" />
+    <Compile Include="Classes\Cron.cs" />
+    <Compile Include="Classes\Globals\DFleetGlobals.cs" />
+    <Compile Include="Interfaces\Items\Api\IApiTeam.cs" />
+    <Compile Include="Classes\Multe.cs" />
+    <Compile Include="Classes\Contratti.cs" />
+    <Compile Include="Classes\Car.cs" />
+    <Compile Include="Classes\Utility.cs" />
+    <Compile Include="Classes\Account.cs" />
+    <Compile Include="Classes\Helper\MailHelper.cs" />
+    <Compile Include="Classes\Log.cs" />
+    <Compile Include="Classes\Helper\BinaryHelper.cs" />
+    <Compile Include="Classes\Helper\DatetimeHelper.cs" />
+    <Compile Include="Classes\Helper\HtmlHelper.cs" />
+    <Compile Include="Classes\Helper\PathHelper.cs" />
+    <Compile Include="Classes\Helper\SecurityHelper.cs" />
+    <Compile Include="Classes\Helper\SEOHelper.cs" />
+    <Compile Include="Classes\Helper\SerializerHelper.cs" />
+    <Compile Include="Classes\Helper\RegexUtilities.cs" />
+    <Compile Include="Classes\PageInfo.cs" />
+    <Compile Include="Classes\DFleetException.cs" />
+    <Compile Include="Interfaces\Provider\IDFleetExceptionProvider.cs" />
+    <Compile Include="Interfaces\Items\Api\IApiAccount.cs" />
+    <Compile Include="Interfaces\Items\IComunicazioni.cs" />
+    <Compile Include="Interfaces\Items\IFileTracciati.cs" />
+    <Compile Include="Interfaces\Items\ICron.cs" />
+    <Compile Include="Interfaces\Items\IMulte.cs" />
+    <Compile Include="Interfaces\Items\IContratti.cs" />
+    <Compile Include="Interfaces\Items\ICar.cs" />
+    <Compile Include="Interfaces\Items\IUtility.cs" />
+    <Compile Include="Interfaces\Items\IAccount.cs" />
+    <Compile Include="Interfaces\Items\ILog.cs" />
+    <Compile Include="Interfaces\ODS\IODSComunicazioni.cs" />
+    <Compile Include="Interfaces\ODS\IODSFileTracciati.cs" />
+    <Compile Include="Interfaces\ODS\IODSCron.cs" />
+    <Compile Include="Interfaces\ODS\IODSMulte.cs" />
+    <Compile Include="Interfaces\ODS\IODSContratti.cs" />
+    <Compile Include="Interfaces\ODS\IODSCar.cs" />
+    <Compile Include="Interfaces\ODS\IODSUtility.cs" />
+    <Compile Include="Interfaces\ODS\IODSAccount.cs" />
+    <Compile Include="Interfaces\ODS\IODSLog.cs" />
+    <Compile Include="Interfaces\Provider\Api\IApiAccountProvider.cs" />
+    <Compile Include="Interfaces\Provider\IComunicazioniProvider.cs" />
+    <Compile Include="Interfaces\Provider\IFileTracciatiProvider.cs" />
+    <Compile Include="Interfaces\Provider\ICronProvider.cs" />
+    <Compile Include="Interfaces\Provider\IMulteProvider.cs" />
+    <Compile Include="Interfaces\Provider\IContrattiProvider.cs" />
+    <Compile Include="Interfaces\Provider\ICarProvider.cs" />
+    <Compile Include="Interfaces\Provider\IUtilityProvider.cs" />
+    <Compile Include="Interfaces\Provider\IAccountProvider.cs" />
+    <Compile Include="Interfaces\Provider\ILoginProvider.cs" />
+    <Compile Include="Interfaces\Provider\ILogProvider.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\Api\DFleetTokenPayload.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="BusinessObject.snk" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\System.Xml.XmlNode.datasource" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

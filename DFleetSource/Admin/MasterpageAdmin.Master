@@ -1,0 +1,236 @@
+﻿<%@ Master Language="C#" EnableViewState="true" ViewStateMode="Enabled" AutoEventWireup="true" CodeBehind="MasterpageAdmin.master.cs" Inherits="DFleet.Admin.MasterpageAdmin" %>
+
+<%@ Register src="UserControl/UcHeaderAdmin.ascx" tagname="ucHeaderAdmin" tagprefix="uc1" %>
+<%@ Register src="UserControl/UcTooltipAdmin.ascx" tagname="ucTooltipAdmin" tagprefix="uc2" %>
+<%@ Register src="UserControl/UcMenuLeftAdmin.ascx" tagname="ucMenuLeftAdmin" tagprefix="uc3" %>
+
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+
+<asp:ContentPlaceHolder ID="ContentHead" runat="server">
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" type="image/png" sizes="16x16" href='<%=ResolveUrl("~/plugins/images/favicon.png")%>' />
+<title>Device 4 Mobility</title>
+<!-- ===== Bootstrap CSS ===== -->
+<link href='<%=ResolveUrl("~/bootstrap/dist/css/bootstrap.min.css")%>' rel="stylesheet">
+<!-- ===== Plugin CSS ===== -->    
+<link href='<%=ResolveUrl("~/plugins/components/jquery/dist/jquery-ui.min.css")%>' rel="stylesheet">
+<link href='<%=ResolveUrl("~/plugins/components/clockpicker/dist/jquery-clockpicker.min.css")%>' rel="stylesheet">
+<link href='<%=ResolveUrl("~/plugins/components/jquery-asColorPicker-master/css/asColorPicker.css")%>' rel="stylesheet">
+<link href='<%=ResolveUrl("~/plugins/components/bootstrap-datepicker/bootstrap-datepicker.min.css")%>' rel="stylesheet" type="text/css" />
+<link href='<%=ResolveUrl("~/plugins/components/timepicker/bootstrap-timepicker.min.css")%>' rel="stylesheet">
+<link href='<%=ResolveUrl("~/plugins/components/bootstrap-daterangepicker/daterangepicker.css")%>' rel="stylesheet">
+<link href='<%=ResolveUrl("~/plugins/components/datatables/jquery.dataTables.min.css")%>' rel="stylesheet" type="text/css" />
+<link href='<%=ResolveUrl("~/css/buttons.dataTables.min.css")%>' rel="stylesheet" type="text/css" />
+<link href='<%=ResolveUrl("~/plugins/components/custom-select/custom-select.css")%>' rel="stylesheet" type="text/css" />
+<link href='<%=ResolveUrl("~/plugins/components/switchery/dist/switchery.min.css")%>' rel="stylesheet" />
+<link href='<%=ResolveUrl("~/plugins/components/bootstrap-tagsinput/dist/bootstrap-tagsinput.css")%>' rel="stylesheet" type="text/css" />
+<link href='<%=ResolveUrl("~/plugins/components/calendar/dist/fullcalendar.css")%>' rel="stylesheet" type="text/css" />
+<!-- ===== Animation CSS ===== -->
+<link href='<%=ResolveUrl("~/css/animate.css")%>' rel="stylesheet" />
+<!-- ===== Custom CSS ===== -->
+<link href='<%=ResolveUrl("~/css/style.css")%>' rel="stylesheet" />
+<!-- ===== Color CSS ===== -->
+<link href='<%=ResolveUrl("~/css/colors/green-dark.css")%>' id="theme" rel="stylesheet" />
+<!-- ===== Editor CSS ===== -->
+<link href='<%=ResolveUrl("~/css/summernote.css")%>' rel="stylesheet" />
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src='<%=ResolveUrl("~/js/html5shiv.js")%>'></script>
+<script src='<%=ResolveUrl("~/js/respond.min.js")%>'></script>
+<![endif]-->
+
+
+</asp:ContentPlaceHolder>
+
+<asp:PlaceHolder ID="pnlCssStyle" runat="server">
+    <asp:Literal ID="ltCss" runat="server"></asp:Literal>
+</asp:PlaceHolder>
+
+</head>
+
+<body class="mini-sidebar">
+
+<form id="form1" runat="server">
+
+<asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+<asp:HiddenField ID="forgeryToken" runat="server"/>
+
+
+
+<!-- ===== Main-Wrapper ===== -->
+<div id="wrapper">
+    <div class="preloader">
+        <div class="cssload-speeding-wheel"></div>
+    </div>
+
+    <asp:ContentPlaceHolder ID="ContentTopBody" runat="server">
+        <!-- ===== Top-Navigation ===== -->
+        <nav class="navbar navbar-default navbar-static-top m-b-0">          
+            <uc1:ucHeaderAdmin ID="ucHeaderAdmin" runat="server" />   
+        </nav>
+
+        <aside class="sidebar">
+            <uc3:ucMenuLeftAdmin ID="ucMenuLeftAdmin" runat="server" />   
+        </aside>
+	</asp:ContentPlaceHolder>
+
+    <!-- ===== Page-Content ===== -->
+    <div class="page-wrapper">            
+        <div class="container-fluid">		
+            <div class="row">
+                <asp:ContentPlaceHolder ID="ContentBody" runat="server"></asp:ContentPlaceHolder>
+            </div>
+
+            <!-- ===== Right-Sidebar ===== -->
+            <div class="right-sidebar">
+                <uc2:ucTooltipAdmin ID="ucTooltipAdmin" runat="server" />
+            </div>
+        </div>
+
+        <!-- /.container-fluid -->
+        <footer class="footer t-a-c no-print">
+            © 2023 D4M by Deloitte Business Solution v. 0.1
+        </footer> 
+    </div>
+
+</div>      
+
+     
+
+
+    <!-- ==============================
+        Required JS Files
+    =============================== -->
+    <!-- ===== jQuery ===== -->
+    <script src='<%=ResolveUrl("~/plugins/components/jquery/dist/jquery.min.js")%>'></script>
+    <script src='<%=ResolveUrl("~/plugins/components/jquery/dist/jquery-ui.min.js")%>'></script>
+    <!-- ===== Bootstrap JavaScript ===== -->
+    <script src='<%=ResolveUrl("~/bootstrap/dist/js/bootstrap.min.js")%>'></script>
+    <!-- ===== Slimscroll JavaScript ===== -->
+    <script src='<%=ResolveUrl("~/js/jquery.slimscroll.js")%>'></script>
+    <!-- ===== Wave Effects JavaScript ===== -->
+    <script src='<%=ResolveUrl("~/js/waves.js")%>'></script>
+    <!-- ===== Menu Plugin JavaScript ===== -->
+    <script src='<%=ResolveUrl("~/js/sidebarmenu.js")%>'></script>
+    <!-- ===== Custom JavaScript ===== -->
+    <script src='<%=ResolveUrl("~/js/custom.js")%>'></script>
+    <!-- ===== Plugin JS ===== -->
+    <script src='<%=ResolveUrl("~/plugins/components/switchery/dist/switchery.min.js")%>'></script>
+    <script src='<%=ResolveUrl("~/plugins/components/datatables/jquery.dataTables.min.js")%>'></script>
+    <script src='<%=ResolveUrl("~/plugins/components/custom-select/custom-select.min.js")%>' type="text/javascript"></script>
+    <script src='<%=ResolveUrl("~/plugins/components/moment/moment.js")%>'></script>
+    <!-- start - This is for export functionality only -->
+    <script src='<%=ResolveUrl("~/js/dataTables.buttons.min.js")%>'></script>
+    <script src='<%=ResolveUrl("~/js/buttons.flash.min.js")%>'></script>
+    <script src='<%=ResolveUrl("~/js/jszip.min.js")%>'></script>
+    <script src='<%=ResolveUrl("~/js/pdfmake.min.js")%>'></script>
+    <script src='<%=ResolveUrl("~/js/vfs_fonts.js")%>'></script>
+    <script src='<%=ResolveUrl("~/js/buttons.html5.min.js")%>'></script>
+    <script src='<%=ResolveUrl("~/js/buttons.print.min.js")%>'></script>	
+    <!-- Clock Plugin JavaScript -->
+    <script src='<%=ResolveUrl("~/plugins/components/clockpicker/dist/jquery-clockpicker.min.js")%>'></script>
+    <!-- Color Picker Plugin JavaScript -->
+    <script src='<%=ResolveUrl("~/plugins/components/jquery-asColorPicker-master/libs/jquery-asColor.js")%>'></script>
+    <script src='<%=ResolveUrl("~/plugins/components/jquery-asColorPicker-master/libs/jquery-asGradient.js")%>'></script>
+    <script src='<%=ResolveUrl("~/plugins/components/jquery-asColorPicker-master/dist/jquery-asColorPicker.min.js")%>'></script>
+    <!-- Date Picker Plugin JavaScript -->
+    <script src='<%=ResolveUrl("~/plugins/components/bootstrap-datepicker/bootstrap-datepicker.min.js")%>'></script>
+    <!-- Date range Plugin JavaScript -->
+    <script src='<%=ResolveUrl("~/plugins/components/timepicker/bootstrap-timepicker.min.js")%>'></script>
+    <script src='<%=ResolveUrl("~/plugins/components/bootstrap-daterangepicker/daterangepicker.js")%>'></script>   
+    <!-- Tags Plugin JavaScript -->
+    <script src='<%=ResolveUrl("~/plugins/components/bootstrap-tagsinput/dist/bootstrap-tagsinput.min.js")%>'></script>   
+    <!-- Editor -->
+    <script src='<%=ResolveUrl("~/js/summernote.js")%>'></script>
+
+    <script>
+    jQuery(document).ready(function () {
+
+        // Switchery
+        var elems = Array.prototype.slice.call(document.querySelectorAll('.js-switch'));
+        jQuery('.js-switch').each(function () {
+            new Switchery(jQuery(this)[0], jQuery(this).data());
+        });
+
+        //editor
+        jQuery('.summernote').summernote({
+            height: 350
+        });
+
+        //datatables
+        jQuery(".dataTable").prepend(jQuery("<thead></thead>").append(jQuery(this).find(".dataTable tr:first"))).DataTable({
+            "paging": false,
+            "searching": false,
+            "info": false,
+            "ordering": false,
+            "scrollX": true
+        });
+        jQuery(".dataTable2").prepend(jQuery("<thead></thead>").append(jQuery(this).find(".dataTable2 tr:first"))).DataTable({
+            "paging": false,
+            "searching": false,
+            "info": false,
+            "ordering": false
+        });
+        jQuery(".dataTable3").prepend(jQuery("<thead></thead>").append(jQuery(this).find(".dataTable3 tr:first"))).DataTable({
+            "paging": false,
+            "searching": false,
+            "info": false,
+            "ordering": false
+        });
+
+        //select
+        jQuery(".select2").select2();
+
+        //datepicker
+        jQuery.fn.datepicker.dates['it'] = {
+            days: ["Domenica", "Lunedi", "Martedi", "Mercoledi", "Giovedi", "Venerdi", "Sabato"],
+            daysShort: ["Dom", "Lun", "Mar", "Mer", "Gio", "Ven", "Sab"],
+            daysMin: ["Do", "Lu", "Ma", "Me", "Gi", "Ve", "Sa"],
+            months: ["Gennaio", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"],
+            monthsShort: ["Gen", "Feb", "Mar", "Apr", "Mag", "Giu", "Luh", "Ago", "Set", "Ott", "Nov", "Dic"],
+            today: "Oggi",
+            clear: "Chiudi",
+            format: "dd/mm/yyyy",
+            titleFormat: "MM yyyy",
+            weekStart: 0
+        };
+
+        jQuery(".datePicker").datepicker({
+            autoclose: false,
+            todayHighlight: true,
+            language: 'it'            
+        });
+
+    });
+
+    function toggleChecked(status) {
+        $('.chkiddelega').each(function () {
+            $(this).attr('checked', status);
+        });
+        if (status) $('.checkall_label').text('Deseleziona tutti');
+        else $('.checkall_label').text('Seleziona tutti');
+    };
+
+    </script>
+
+<asp:ContentPlaceHolder ID="ContentScripts" runat="server">
+</asp:ContentPlaceHolder>
+
+
+
+</form>
+
+</body>
+</html>

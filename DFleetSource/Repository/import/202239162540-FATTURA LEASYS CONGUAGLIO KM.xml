@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" versione="FPR12" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2 file:///F:/Progetti/Altova/2018/pa/invoice_extcsv2xmlpa2020/Schema/Schema_VFPR12%20mod.xsd" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+	<FatturaElettronicaHeader xmlns="">
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>05262890014</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>1</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>0000000</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>06714021000</IdCodice>
+				</IdFiscaleIVA>
+				<Anagrafica>
+					<Denominazione>LEASYS S.p.A.</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF01</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>Corso Agnelli 200</Indirizzo>
+				<CAP>10135</CAP>
+				<Comune>Torino</Comune>
+				<Provincia>TO</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<IscrizioneREA>
+				<Ufficio>TO</Ufficio>
+				<NumeroREA>960205</NumeroREA>
+				<CapitaleSociale>77979400.00</CapitaleSociale>
+				<StatoLiquidazione>LN</StatoLiquidazione>
+			</IscrizioneREA>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>03945320962</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>03945320962</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>DELOITTE CONSULTING SRL</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>VIA TORTONA 25</Indirizzo>
+				<CAP>20144</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody xmlns="">
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2021-10-28</Data>
+				<Numero>0000202110971043</Numero>
+				<ImportoTotaleDocumento>64.84</ImportoTotaleDocumento>
+			</DatiGeneraliDocumento>
+			<DatiContratto>
+				<IdDocumento>1201859765</IdDocumento>
+				<Data>2021-09-29</Data>
+			</DatiContratto>
+			<DatiRicezione>
+				<IdDocumento>-</IdDocumento>
+			</DatiRicezione>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<Descrizione>CONGUAGLIO KM FV015YL 2.2 TURBO DIESEL 190 CV AT8 EXECUTIVE</Descrizione>
+				<Quantita>1.00</Quantita>
+				<UnitaMisura>EURO</UnitaMisura>
+				<PrezzoUnitario>53.15</PrezzoUnitario>
+				<PrezzoTotale>53.15</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<AltriDatiGestionali>
+					<TipoDato>NOTE</TipoDato>
+					<RiferimentoTesto>UTILIZZATORE LUCA SARTORI codice 1184858612</RiferimentoTesto>
+				</AltriDatiGestionali>
+				<AltriDatiGestionali>
+					<TipoDato>NOTE</TipoDato>
+					<RiferimentoTesto>CENTRO DI COSTO 1184029629 DELOITTE CONSULTING SRL</RiferimentoTesto>
+				</AltriDatiGestionali>
+				<AltriDatiGestionali>
+					<TipoDato>NOTE</TipoDato>
+					<RiferimentoTesto>EXT REFERENCE 1184029629-5002886074</RiferimentoTesto>
+				</AltriDatiGestionali>
+				<AltriDatiGestionali>
+					<TipoDato>NOTE</TipoDato>
+					<RiferimentoTesto>1184029629</RiferimentoTesto>
+				</AltriDatiGestionali>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<ImponibileImporto>53.15</ImponibileImporto>
+				<Imposta>11.69</Imposta>
+				<EsigibilitaIVA>I</EsigibilitaIVA>
+				<RiferimentoNormativo>Vend. IVA 22%</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+		<DatiPagamento>
+			<CondizioniPagamento>TP02</CondizioniPagamento>
+			<DettaglioPagamento>
+				<ModalitaPagamento>MP05</ModalitaPagamento>
+				<DataRiferimentoTerminiPagamento>2021-10-28</DataRiferimentoTerminiPagamento>
+				<GiorniTerminiPagamento>60</GiorniTerminiPagamento>
+				<DataScadenzaPagamento>2021-12-31</DataScadenzaPagamento>
+				<ImportoPagamento>64.84</ImportoPagamento>
+				<IstitutoFinanziario>Unicredit-000030102780</IstitutoFinanziario>
+				<IBAN>IT59T0200809440000030102780</IBAN>
+				<ABI>02008</ABI>
+				<CAB>09440</CAB>
+			</DettaglioPagamento>
+		</DatiPagamento>
+	</FatturaElettronicaBody>
+</FatturaElettronica>

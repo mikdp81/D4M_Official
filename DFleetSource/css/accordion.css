@@ -1,0 +1,54 @@
+.accordion-container .accordion-title {
+  position: relative;
+  margin: 0;
+  padding: 0.625em 0.625em 0.625em 2em;
+  background-color: #87bd32;
+  font-size: 1.25em;
+  font-weight: normal;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom:5px;
+}
+
+.accordion-container .accordion-title:hover,
+.accordion-container .accordion-title:active,
+.accordion-title.open { 
+  background-color: #000;
+}
+
+.accordion-container .accordion-title::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  width: 15px;
+  height: 2px;
+  transform: rotate(90deg);
+  background: #fff;
+  transition: all .3s ease-in-out;
+}
+
+.accordion-container .accordion-title::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  width: 15px;
+  height: 2px;
+  background: #fff;
+  transition: all .2s ease-in-out;
+}
+
+.accordion-container .accordion-title.open::before {
+  transform: rotate(180deg);
+}
+
+.accordion-container .accordion-title.open::after {
+  opacity: 0;
+}
+
+.accordion-content {
+  padding-left: 2.3125em;
+  margin-bottom:15px;
+  font-size:18px;
+}
